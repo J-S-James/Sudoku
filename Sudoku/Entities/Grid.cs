@@ -13,6 +13,17 @@ public struct Grid
         _cells = cells;
     }
 
+    public Grid()
+    {
+        for (int i = 0; i < 9; i++)
+        {
+            for (int j = 0; j < 9; j++)
+            {
+                _cells[i, j] = new Cell();
+            }
+        }
+    }
+
     public Cell GetCell(int x, int y)
     {
         if (x < 0 || x > 8 || y < 0 || y > 8)
