@@ -14,53 +14,24 @@ public class SudokuService : ISudokuService
     public Grid GenerateSolution()
     {
         var grid = new Grid();
-        var emptyCells = new List<int[]>();
-
-        // Initialize empty cells with coords of every empty cell
-        for (int x = 0; x < 9; x++)
-        {
-            for (int y = 0; y < 9; y++)
-            {
-                emptyCells.Add([x, y]);
-            }
-        }
 
         // Initial seeding
         // Seed nine cells with 1 to 9 randomly
-        for (int i = 1; i < 10; i++)
+        for (int i = 1; i <=9; i++)
         {
-            // Get random cell coords from emptyCells
-            var ran = _random.Next(emptyCells.Count-1);
-            var coords = emptyCells[ran];
-
-            // Get the cell from the grid and initialize digit
-            var cell = grid.GetCell(coords[0], coords[1]);
-            cell.Digit = i;
-
-            // Remove populated cell from emptyCells
-            emptyCells.RemoveAt(ran);
-        }
-
-        // Fill the rest of the board
-        for (int cellsLeft = emptyCells.Count-1; cellsLeft >= 0; cellsLeft--)
-        {
-            // Get random cell coords from emptyCells
-            var ran = _random.Next(cellsLeft);
-            var coords = emptyCells[ran];
-
-            // Attempt to fill the cell
-            for (int digit = 0; digit < 9; digit++)
+            Cell cell;
+            do
             {
-                if (IsUnusedInBox(coords[0], coords[1], digit, grid)
-                    && IsUnusedInColumn(coords[1], digit, grid)
-                    && IsUnusedInRow(coords[0], digit, grid))
-                {
-                    var cell = grid.GetCell(coords[0], coords[1]);
-                    cell.Digit = digit;
-                    emptyCells.RemoveAt(ran);
-                }
+                var x = _random.Next(8);
+                var y = _random.Next(8);
+                cell = grid.GetCell(x, y);
             }
+            while (cell.Digit is not null);
+
+            cell.Digit = i;
         }
+
+        Solve(grid);
 
         return grid;
     }
@@ -85,11 +56,21 @@ public class SudokuService : ISudokuService
                             var cell = grid.GetCell(x, y);
                             cell.Digit = i;
 
+                            if (Solve(grid))
+                            {
+                                return true;
+                            }
+                            else
+                            {
+                                cell.Digit = null;
+                            }
                         }
                     }
+                    return false;
                 }
             }
         }
+        return true;
     }
 
     private bool IsUnusedInRow(int x, int digit, Grid grid)
