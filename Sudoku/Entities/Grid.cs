@@ -1,5 +1,5 @@
 ﻿namespace Sudoku.Domain.Entities;
-public struct Grid
+public class Grid
 {
     private Cell[,] _cells = new Cell[9, 9];
 

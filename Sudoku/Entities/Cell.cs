@@ -1,5 +1,5 @@
 ﻿namespace Sudoku.Domain.Entities;
-public struct Cell
+public class Cell
 {
     private int? _digit;
 
@@ -13,10 +13,13 @@ public struct Cell
         get => _digit;
         set
         {
-            if (value > 0 && value < 9)
+            _digit = value;
+            /**
+            if (value > 0 && value <= 9)
             {
                 _digit = value;
             }
+            **/
         }
     }
 

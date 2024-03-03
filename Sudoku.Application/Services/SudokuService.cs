@@ -41,19 +41,20 @@ public class SudokuService : ISudokuService
         throw new NotImplementedException();
     }
 
+    // Backtracking algorithm to solve a Sudoku grid
     private bool Solve(Grid grid)
     {
         for (int x = 0; x < 9;  x++)
         {
             for (int y = 0; y < 9; y++)
             {
-                if (grid.GetCell(x, y).Digit is null)
+                var cell = grid.GetCell(x, y);
+                if (cell.Digit is null)
                 {
                     for (int i = 1; i <= 9; i++)
                     {
                         if (IsValid(x, y, i, grid))
                         {
-                            var cell = grid.GetCell(x, y);
                             cell.Digit = i;
 
                             if (Solve(grid))
@@ -62,7 +63,7 @@ public class SudokuService : ISudokuService
                             }
                             else
                             {
-                                cell.Digit = null;
+                                cell.RemoveDigit();
                             }
                         }
                     }
