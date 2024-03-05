@@ -61,7 +61,11 @@ public class SudokuService : ISudokuService
                 }
             }
         }
+
+        return false;
     }
+
+
 
     // Backtracking algorithm to solve a Sudoku grid
     private bool Solve(Grid grid)
@@ -85,7 +89,7 @@ public class SudokuService : ISudokuService
                             }
                             else
                             {
-                                cell.RemoveDigit();
+                                cell.Digit = null;
                             }
                         }
                     }

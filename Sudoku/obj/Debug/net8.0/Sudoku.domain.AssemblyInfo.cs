@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sudoku.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6da2b7200b9c9146e3d03606dde82f62bf28f01d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf1b4fe0761eb3f3014ffa4363e9feac04159537")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sudoku.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sudoku.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

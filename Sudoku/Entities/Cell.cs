@@ -2,6 +2,7 @@
 public class Cell
 {
     private int? _digit;
+    private List<int>? _pencilMarks;
 
     public Cell(int? digit = null)
     {
@@ -13,18 +14,15 @@ public class Cell
         get => _digit;
         set
         {
-            _digit = value;
-            /**
-            if (value > 0 && value <= 9)
+            if (value > 0 && value <= 9 || value is null)
             {
                 _digit = value;
             }
-            **/
         }
     }
 
-    public void RemoveDigit()
+    public List<int> PencilMarks
     {
-        _digit = null;
+        get => _pencilMarks ??= new List<int>();
     }
 }
