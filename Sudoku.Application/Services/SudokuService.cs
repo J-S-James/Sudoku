@@ -66,7 +66,6 @@ public class SudokuService : ISudokuService
     }
 
 
-
     // Backtracking algorithm to solve a Sudoku grid
     private bool Solve(Grid grid)
     {
