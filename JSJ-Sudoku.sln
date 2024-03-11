@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.Domain", "Sudoku\Sud
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.Application", "Sudoku.Application\Sudoku.Application.csproj", "{24401B99-A7AE-4CF9-853B-8D1D9FAE05B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Presentation", "Sudoku.Presentation\Sudoku.Presentation.csproj", "{70AB485A-EED3-4EE1-85CC-14E59EF2E955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.Presentation", "Sudoku.Presentation\Sudoku.Presentation.csproj", "{70AB485A-EED3-4EE1-85CC-14E59EF2E955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DBD9BD3-B975-4092-8863-41B1079FB29A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40558B9B-4BF7-4C41-838C-0467431192B3} = {4DBD9BD3-B975-4092-8863-41B1079FB29A}
+		{24401B99-A7AE-4CF9-853B-8D1D9FAE05B4} = {4DBD9BD3-B975-4092-8863-41B1079FB29A}
+		{70AB485A-EED3-4EE1-85CC-14E59EF2E955} = {4DBD9BD3-B975-4092-8863-41B1079FB29A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4CD5EB5-5A9D-447D-8417-8809448C0714}
