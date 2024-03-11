@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Sudoku.Presentation/1.0.0": {
+        "dependencies": {
+          "Sudoku.Application": "1.0.0",
+          "Sudoku.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Sudoku.Presentation.dll": {}
+        }
+      },
+      "Sudoku.Application/1.0.0": {
+        "dependencies": {
+          "Sudoku.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Sudoku.Application.dll": {}
+        }
+      },
+      "Sudoku.Domain/1.0.0": {
+        "runtime": {
+          "Sudoku.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sudoku.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sudoku.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sudoku.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

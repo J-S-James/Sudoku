@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\JSJ-Sudoku\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24401B99-A7AE-4CF9-853B-8D1D9FAE05B4}|Sudoku.Application\\Sudoku.Application.csproj|e:\\projects\\jsj-sudoku\\sudoku.application\\services\\sudokuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24401B99-A7AE-4CF9-853B-8D1D9FAE05B4}|Sudoku.Application\\Sudoku.Application.csproj|solutionrelative:sudoku.application\\services\\sudokuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24401B99-A7AE-4CF9-853B-8D1D9FAE05B4}|Sudoku.Application\\Sudoku.Application.csproj|e:\\projects\\jsj-sudoku\\sudoku.application\\sudoku.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24401B99-A7AE-4CF9-853B-8D1D9FAE05B4}|Sudoku.Application\\Sudoku.Application.csproj|solutionrelative:sudoku.application\\sudoku.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40558B9B-4BF7-4C41-838C-0467431192B3}|Sudoku\\Sudoku.Domain.csproj|e:\\projects\\jsj-sudoku\\sudoku\\entities\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40558B9B-4BF7-4C41-838C-0467431192B3}|Sudoku\\Sudoku.Domain.csproj|solutionrelative:sudoku\\entities\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40558B9B-4BF7-4C41-838C-0467431192B3}|Sudoku\\Sudoku.Domain.csproj|e:\\projects\\jsj-sudoku\\sudoku\\entities\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40558B9B-4BF7-4C41-838C-0467431192B3}|Sudoku\\Sudoku.Domain.csproj|solutionrelative:sudoku\\entities\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AB485A-EED3-4EE1-85CC-14E59EF2E955}|Sudoku.Presentation\\Sudoku.Presentation.csproj|e:\\projects\\jsj-sudoku\\sudoku.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AB485A-EED3-4EE1-85CC-14E59EF2E955}|Sudoku.Presentation\\Sudoku.Presentation.csproj|solutionrelative:sudoku.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40558B9B-4BF7-4C41-838C-0467431192B3}|Sudoku\\Sudoku.Domain.csproj|e:\\projects\\jsj-sudoku\\sudoku\\interfaces\\isudokuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40558B9B-4BF7-4C41-838C-0467431192B3}|Sudoku\\Sudoku.Domain.csproj|solutionrelative:sudoku\\interfaces\\isudokuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AB485A-EED3-4EE1-85CC-14E59EF2E955}|Sudoku.Presentation\\Sudoku.Presentation.csproj|e:\\projects\\jsj-sudoku\\sudoku.presentation\\sudoku.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70AB485A-EED3-4EE1-85CC-14E59EF2E955}|Sudoku.Presentation\\Sudoku.Presentation.csproj|solutionrelative:sudoku.presentation\\sudoku.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40558B9B-4BF7-4C41-838C-0467431192B3}|Sudoku\\Sudoku.Domain.csproj|e:\\projects\\jsj-sudoku\\sudoku\\sudoku.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40558B9B-4BF7-4C41-838C-0467431192B3}|Sudoku\\Sudoku.Domain.csproj|solutionrelative:sudoku\\sudoku.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Square.cs",
+              "DocumentMoniker": "E:\\Projects\\JSJ-Sudoku\\Sudoku\\Entities\\Square.cs",
+              "RelativeDocumentMoniker": "Sudoku\\Entities\\Square.cs",
+              "ToolTip": "E:\\Projects\\JSJ-Sudoku\\Sudoku\\Entities\\Square.cs",
+              "RelativeToolTip": "Sudoku\\Entities\\Square.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T22:13:32.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SudokuService.cs",
+              "DocumentMoniker": "E:\\Projects\\JSJ-Sudoku\\Sudoku.Application\\Services\\SudokuService.cs",
+              "RelativeDocumentMoniker": "Sudoku.Application\\Services\\SudokuService.cs",
+              "ToolTip": "E:\\Projects\\JSJ-Sudoku\\Sudoku.Application\\Services\\SudokuService.cs",
+              "RelativeToolTip": "Sudoku.Application\\Services\\SudokuService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T02:14:02.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sudoku.Domain.csproj",
+              "DocumentMoniker": "E:\\Projects\\JSJ-Sudoku\\Sudoku\\Sudoku.Domain.csproj",
+              "RelativeDocumentMoniker": "Sudoku\\Sudoku.Domain.csproj",
+              "ToolTip": "E:\\Projects\\JSJ-Sudoku\\Sudoku\\Sudoku.Domain.csproj",
+              "RelativeToolTip": "Sudoku\\Sudoku.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-28T20:04:52.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Grid.cs",
+              "DocumentMoniker": "E:\\Projects\\JSJ-Sudoku\\Sudoku\\Entities\\Grid.cs",
+              "RelativeDocumentMoniker": "Sudoku\\Entities\\Grid.cs",
+              "ToolTip": "E:\\Projects\\JSJ-Sudoku\\Sudoku\\Entities\\Grid.cs",
+              "RelativeToolTip": "Sudoku\\Entities\\Grid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T22:13:50.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISudokuService.cs",
+              "DocumentMoniker": "E:\\Projects\\JSJ-Sudoku\\Sudoku\\Interfaces\\ISudokuService.cs",
+              "RelativeDocumentMoniker": "Sudoku\\Interfaces\\ISudokuService.cs",
+              "ToolTip": "E:\\Projects\\JSJ-Sudoku\\Sudoku\\Interfaces\\ISudokuService.cs",
+              "RelativeToolTip": "Sudoku\\Interfaces\\ISudokuService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T22:20:47.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sudoku.Application.csproj",
+              "DocumentMoniker": "E:\\Projects\\JSJ-Sudoku\\Sudoku.Application\\Sudoku.Application.csproj",
+              "RelativeDocumentMoniker": "Sudoku.Application\\Sudoku.Application.csproj",
+              "ToolTip": "E:\\Projects\\JSJ-Sudoku\\Sudoku.Application\\Sudoku.Application.csproj",
+              "RelativeToolTip": "Sudoku.Application\\Sudoku.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-02T18:04:20.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\JSJ-Sudoku\\Sudoku.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Sudoku.Presentation\\Program.cs",
+              "ToolTip": "E:\\Projects\\JSJ-Sudoku\\Sudoku.Presentation\\Program.cs",
+              "RelativeToolTip": "Sudoku.Presentation\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T17:51:19.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sudoku.Presentation.csproj",
+              "DocumentMoniker": "E:\\Projects\\JSJ-Sudoku\\Sudoku.Presentation\\Sudoku.Presentation.csproj",
+              "RelativeDocumentMoniker": "Sudoku.Presentation\\Sudoku.Presentation.csproj",
+              "ToolTip": "E:\\Projects\\JSJ-Sudoku\\Sudoku.Presentation\\Sudoku.Presentation.csproj",
+              "RelativeToolTip": "Sudoku.Presentation\\Sudoku.Presentation.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-02T18:04:38.792Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+E:\Projects\JSJ-Sudoku\Sudoku.Application\bin\Debug\net8.0\Sudoku.Application.deps.json
+E:\Projects\JSJ-Sudoku\Sudoku.Application\bin\Debug\net8.0\Sudoku.Application.dll
+E:\Projects\JSJ-Sudoku\Sudoku.Application\bin\Debug\net8.0\Sudoku.Application.pdb
+E:\Projects\JSJ-Sudoku\Sudoku.Application\bin\Debug\net8.0\Sudoku.Domain.dll
+E:\Projects\JSJ-Sudoku\Sudoku.Application\bin\Debug\net8.0\Sudoku.Domain.pdb
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.Application.csproj.AssemblyReference.cache
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.Application.AssemblyInfoInputs.cache
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.Application.AssemblyInfo.cs
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.Application.csproj.CoreCompileInputs.cache
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.Application.sourcelink.json
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.A.772B43AA.Up2Date
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.Application.dll
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\refint\Sudoku.Application.dll
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\Sudoku.Application.pdb
+E:\Projects\JSJ-Sudoku\Sudoku.Application\obj\Debug\net8.0\ref\Sudoku.Application.dll

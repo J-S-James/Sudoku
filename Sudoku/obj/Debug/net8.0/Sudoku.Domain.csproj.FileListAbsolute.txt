@@ -1,0 +1,12 @@
+E:\Projects\JSJ-Sudoku\Sudoku\bin\Debug\net8.0\Sudoku.Domain.deps.json
+E:\Projects\JSJ-Sudoku\Sudoku\bin\Debug\net8.0\Sudoku.Domain.dll
+E:\Projects\JSJ-Sudoku\Sudoku\bin\Debug\net8.0\Sudoku.Domain.pdb
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\Sudoku.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\Sudoku.Domain.AssemblyInfoInputs.cache
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\Sudoku.Domain.AssemblyInfo.cs
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\Sudoku.Domain.csproj.CoreCompileInputs.cache
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\Sudoku.Domain.sourcelink.json
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\Sudoku.Domain.dll
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\refint\Sudoku.Domain.dll
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\Sudoku.Domain.pdb
+E:\Projects\JSJ-Sudoku\Sudoku\obj\Debug\net8.0\ref\Sudoku.Domain.dll
