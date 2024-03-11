@@ -1,16 +1,16 @@
 ﻿namespace Sudoku.Domain.Entities;
 public class Grid
 {
-    private Cell[,] _cells = new Cell[9, 9];
+    private Square[,] _squares = new Square[9, 9];
 
-    public Grid(Cell[,] cells)
+    public Grid(Square[,] squares)
     {
-        if (cells.GetLength(0) != 8 || cells.GetLength(1) != 8)
+        if (squares.GetLength(0) != 8 || squares.GetLength(1) != 8)
         {
             throw new ArgumentException("Invalid array dimensions. The array must be 9x9");
         }
 
-        _cells = cells;
+        _squares = squares;
     }
 
     public Grid()
@@ -19,12 +19,12 @@ public class Grid
         {
             for (int j = 0; j < 9; j++)
             {
-                _cells[i, j] = new Cell();
+                _squares[i, j] = new Square();
             }
         }
     }
 
-    public Cell GetCell(int x, int y)
+    public Square GetSquare(int x, int y)
     {
         if (x < 0 || x > 8 || y < 0 || y > 8)
         {
@@ -32,7 +32,7 @@ public class Grid
         }
         else
         {
-            return _cells[x, y];
+            return _squares[x, y];
         }
     }
 }

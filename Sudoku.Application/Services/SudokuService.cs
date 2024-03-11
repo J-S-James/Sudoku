@@ -19,12 +19,12 @@ public class SudokuService : ISudokuService
         // Seed nine cells with 1 to 9 randomly
         for (int i = 1; i <=9; i++)
         {
-            Cell cell;
+            Square cell;
             do
             {
                 var x = _random.Next(8);
                 var y = _random.Next(8);
-                cell = grid.GetCell(x, y);
+                cell = grid.GetSquare(x, y);
             }
             while (cell.Digit is not null);
 
@@ -49,7 +49,7 @@ public class SudokuService : ISudokuService
         { 
             for (int y = 0; y < 9; y++) 
             { 
-                if (grid.GetCell(x, y).Digit is null)
+                if (grid.GetSquare(x, y).Digit is null)
                 {
                     for (int i = 1; i <= 9; i++)
                     {
@@ -73,7 +73,7 @@ public class SudokuService : ISudokuService
         {
             for (int y = 0; y < 9; y++)
             {
-                var cell = grid.GetCell(x, y);
+                var cell = grid.GetSquare(x, y);
                 if (cell.Digit is null)
                 {
                     for (int i = 1; i <= 9; i++)
@@ -103,7 +103,7 @@ public class SudokuService : ISudokuService
     {
         for (int y = 0; y < 9; y++)
         {
-            var cell = grid.GetCell(x, y);
+            var cell = grid.GetSquare(x, y);
             if (cell.Digit == digit)
             {
                 return false;
@@ -117,7 +117,7 @@ public class SudokuService : ISudokuService
     {
         for (int x = 0; x < 9; x++)
         {
-            var cell = grid.GetCell(x, y);
+            var cell = grid.GetSquare(x, y);
             if (cell.Digit == digit)
             {
                 return false;
@@ -138,7 +138,7 @@ public class SudokuService : ISudokuService
         {
             for (int j = 0; j < 3; j++)
             {
-                var cell = grid.GetCell(boxXStart + i, boxYStart + j);
+                var cell = grid.GetSquare(boxXStart + i, boxYStart + j);
                 if (cell.Digit == digit)
                 {
                     return false;
